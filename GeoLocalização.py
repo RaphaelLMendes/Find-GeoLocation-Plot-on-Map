@@ -69,7 +69,7 @@ if prompt == 's':
     for latitude, longitude, check, local in zip(lat, lon, isNull, loc):
         if not check:
             fg1.add_child(folium.Marker(location=[latitude, longitude],popup=str(local),
-                                    icon=folium.Icon(color='blue',prefix='fa',icon='circle')))
+                                    icon=folium.Icon(color='green',prefix='fa',icon='circle')))
 
 
     map.add_child(fg1)
