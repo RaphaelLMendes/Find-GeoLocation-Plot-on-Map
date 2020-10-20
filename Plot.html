@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7fa71993c6a743e48a7c45c09c756046 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7fa71993c6a743e48a7c45c09c756046" ></div>
+        
+</body>
+<script>    
+    
+            var map_7fa71993c6a743e48a7c45c09c756046 = L.map(
+                "map_7fa71993c6a743e48a7c45c09c756046",
+                {
+                    center: [-12.889447779930082, -44.916924999999964],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3036701c44814b9bb6327588eed8e43b = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7fa71993c6a743e48a7c45c09c756046);
+        
+    
+            var feature_group_288667e10eba401c8556183699cfac14 = L.featureGroup(
+                {}
+            ).addTo(map_7fa71993c6a743e48a7c45c09c756046);
+        
+    
+            var marker_2939897d269f46ac9acb89b50eb614db = L.marker(
+                [-10.71478999999994, -38.18172999999996],
+                {}
+            ).addTo(feature_group_288667e10eba401c8556183699cfac14);
+        
+    
+            var icon_a7337c9625ae451699adf8274553285d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2939897d269f46ac9acb89b50eb614db.setIcon(icon_a7337c9625ae451699adf8274553285d);
+        
+    
+        var popup_177cddb1fc834e2ba6e25956ecdf2917 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e64500e5abaf46e6a89faa7fce26d8c3 = $(`<div id="html_e64500e5abaf46e6a89faa7fce26d8c3" style="width: 100.0%; height: 100.0%;">Poço Verde, Sergipe - Brasil</div>`)[0];
+            popup_177cddb1fc834e2ba6e25956ecdf2917.setContent(html_e64500e5abaf46e6a89faa7fce26d8c3);
+        
+
+        marker_2939897d269f46ac9acb89b50eb614db.bindPopup(popup_177cddb1fc834e2ba6e25956ecdf2917)
+        ;
+
+        
+    
+    
+            var marker_c447f475f3834b988367bc052604f9e2 = L.marker(
+                [-11.26871999999997, -37.44287999999995],
+                {}
+            ).addTo(feature_group_288667e10eba401c8556183699cfac14);
+        
+    
+            var icon_7c99415da495471eae5c2f1235e18b34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c447f475f3834b988367bc052604f9e2.setIcon(icon_7c99415da495471eae5c2f1235e18b34);
+        
+    
+        var popup_5e1c8197c3714871865b787d5537b2f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_960c9c93b5e24e59ab44b71a448526e6 = $(`<div id="html_960c9c93b5e24e59ab44b71a448526e6" style="width: 100.0%; height: 100.0%;">Estancia, Sergipe - Brasil</div>`)[0];
+            popup_5e1c8197c3714871865b787d5537b2f1.setContent(html_960c9c93b5e24e59ab44b71a448526e6);
+        
+
+        marker_c447f475f3834b988367bc052604f9e2.bindPopup(popup_5e1c8197c3714871865b787d5537b2f1)
+        ;
+
+        
+    
+    
+            var marker_28985aaa3f1d48df9e36c6d1b26a3e19 = L.marker(
+                [-16.46586999999994, -54.62233999999995],
+                {}
+            ).addTo(feature_group_288667e10eba401c8556183699cfac14);
+        
+    
+            var icon_012c6c255b7746128a5a8d786eff0390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_28985aaa3f1d48df9e36c6d1b26a3e19.setIcon(icon_012c6c255b7746128a5a8d786eff0390);
+        
+    
+        var popup_8b2d4228ed824acc96838cd4fa8d5402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e67145aad7ea4bae8103db2404b7d8e7 = $(`<div id="html_e67145aad7ea4bae8103db2404b7d8e7" style="width: 100.0%; height: 100.0%;">Rondonópolis, Mato Grosso - Brasil</div>`)[0];
+            popup_8b2d4228ed824acc96838cd4fa8d5402.setContent(html_e67145aad7ea4bae8103db2404b7d8e7);
+        
+
+        marker_28985aaa3f1d48df9e36c6d1b26a3e19.bindPopup(popup_8b2d4228ed824acc96838cd4fa8d5402)
+        ;
+
+        
+    
+    
+            var marker_27d6b49634ac4e398696450e899737c4 = L.marker(
+                [-22.01461999999998, -47.89079999999996],
+                {}
+            ).addTo(feature_group_288667e10eba401c8556183699cfac14);
+        
+    
+            var icon_8ea0c74d230f4ec1bd52a5446bcf428d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_27d6b49634ac4e398696450e899737c4.setIcon(icon_8ea0c74d230f4ec1bd52a5446bcf428d);
+        
+    
+        var popup_0b181f616c3545c9b7c4c367807a1ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf9374879eb64bcca2dac4543602c3ce = $(`<div id="html_bf9374879eb64bcca2dac4543602c3ce" style="width: 100.0%; height: 100.0%;">São Carlos, SP - Brasil</div>`)[0];
+            popup_0b181f616c3545c9b7c4c367807a1ff2.setContent(html_bf9374879eb64bcca2dac4543602c3ce);
+        
+
+        marker_27d6b49634ac4e398696450e899737c4.bindPopup(popup_0b181f616c3545c9b7c4c367807a1ff2)
+        ;
+
+        
+    
+    
+            var marker_6a8ee753368e44fc8468cdcd73b2a5a3 = L.marker(
+                [-3.764275559860183, -38.58812829908616],
+                {}
+            ).addTo(feature_group_288667e10eba401c8556183699cfac14);
+        
+    
+            var icon_d728fac1e50349ab99f6300b3f0c272e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6a8ee753368e44fc8468cdcd73b2a5a3.setIcon(icon_d728fac1e50349ab99f6300b3f0c272e);
+        
+    
+        var popup_aefb0c77f1fa49fe8764625b056c79a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f709537df684cbbacf6016c8aee57ab = $(`<div id="html_2f709537df684cbbacf6016c8aee57ab" style="width: 100.0%; height: 100.0%;">R. Vitória, 1312-1436 - Henrique Jorge, Fortaleza - CE</div>`)[0];
+            popup_aefb0c77f1fa49fe8764625b056c79a2.setContent(html_2f709537df684cbbacf6016c8aee57ab);
+        
+
+        marker_6a8ee753368e44fc8468cdcd73b2a5a3.bindPopup(popup_aefb0c77f1fa49fe8764625b056c79a2)
+        ;
+
+        
+    
+    
+            var marker_3a53764ba4aa44d694072f6644022889 = L.marker(
+                [-10.76994642899996, -53.07346688899997],
+                {}
+            ).addTo(feature_group_288667e10eba401c8556183699cfac14);
+        
+    
+            var icon_1957ec86b23d4f9cbe49e4e47983b3c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3a53764ba4aa44d694072f6644022889.setIcon(icon_1957ec86b23d4f9cbe49e4e47983b3c3);
+        
+    
+        var popup_65de6735f77c4d42b1c6235ebaf869ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_618890956f5a4f7e8cd7cd2b75d708a1 = $(`<div id="html_618890956f5a4f7e8cd7cd2b75d708a1" style="width: 100.0%; height: 100.0%;">Brasil</div>`)[0];
+            popup_65de6735f77c4d42b1c6235ebaf869ba.setContent(html_618890956f5a4f7e8cd7cd2b75d708a1);
+        
+
+        marker_3a53764ba4aa44d694072f6644022889.bindPopup(popup_65de6735f77c4d42b1c6235ebaf869ba)
+        ;
+
+        
+    
+    
+            var marker_7fb1a08b073943c0bd620472f9b99cf3 = L.marker(
+                [-5.795439999999928, -35.21150999999998],
+                {}
+            ).addTo(feature_group_288667e10eba401c8556183699cfac14);
+        
+    
+            var icon_14a8ff9c46c04b8bbd8284dd749ac8c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7fb1a08b073943c0bd620472f9b99cf3.setIcon(icon_14a8ff9c46c04b8bbd8284dd749ac8c3);
+        
+    
+        var popup_bd51945f5a5b4520b77982c2d54bac90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2348d8015b7340c1a0d0d801a358fc9c = $(`<div id="html_2348d8015b7340c1a0d0d801a358fc9c" style="width: 100.0%; height: 100.0%;">Natal, Rio Grande do Norte - Brasil</div>`)[0];
+            popup_bd51945f5a5b4520b77982c2d54bac90.setContent(html_2348d8015b7340c1a0d0d801a358fc9c);
+        
+
+        marker_7fb1a08b073943c0bd620472f9b99cf3.bindPopup(popup_bd51945f5a5b4520b77982c2d54bac90)
+        ;
+
+        
+    
+    
+            var layer_control_4fba4cefa761490ba2ae9dbaddecb3f7 = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_3036701c44814b9bb6327588eed8e43b,
+                },
+                overlays :  {
+                    "Points" : feature_group_288667e10eba401c8556183699cfac14,
+                },
+            };
+            L.control.layers(
+                layer_control_4fba4cefa761490ba2ae9dbaddecb3f7.base_layers,
+                layer_control_4fba4cefa761490ba2ae9dbaddecb3f7.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_7fa71993c6a743e48a7c45c09c756046);
+        
+</script>
